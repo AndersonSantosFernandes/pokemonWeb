@@ -29,7 +29,7 @@ function cabecalhoGeral() {
 <a href="pagina3.html"><button class="btnMenu">Página 3 </button></a>
 <a href="pagina4.html"><button class="btnMenu">Página 4 </button></a>
 <a href="pagina5.html"><button class="btnMenu">Página 5 </button></a>
-<a href="pagina6.html"><button class="btnMenu">Página 6 </button></a>
+<a href="pagina6.html"><button class="btnMenu">Aberturas </button></a>
 
 `
 //     leftBarr.innerHTML =

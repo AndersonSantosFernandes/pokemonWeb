@@ -1,0 +1,47 @@
+.aberturas{
+    background-image: linear-gradient(black,gray,black);
+    opacity: .9;
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+#showMovie{
+    width: 80%;
+    min-height: 80vh;
+    border: 1px solid black;
+    
+}
+.film{
+    width: 95%;
+    height: 60vh;
+    border: 1px solid purple;
+    margin: auto;
+    align-items: center;
+}
+#frames{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(red,white,gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pkbol{
+    height: 100%;
+    
+}
+#selecao{
+    width: 100%;
+    height: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+#tituloPg{
+    width: 100%;
+    background-image: linear-gradient(red,white,gray);
+    text-align: center;
+}

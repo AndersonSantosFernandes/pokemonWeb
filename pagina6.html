@@ -10,8 +10,11 @@
         integrity="sha512-drnvWxqfgcU6sLzAJttJv7LKdjWn0nxWCSbEAtxJ/YYaZMyoNLovG7lPqZRdhgL1gAUfa+V7tbin8y+2llC1cw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-       
+
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_pg_6.css">
+
+    <script src="script/script_pg_6.js"></script>
     <script src="script/script.js"></script>
 
     <title>Pokemon</title>
@@ -22,11 +25,46 @@
 </header>
 
 <body id="corpo" onload="back(),cabecalhoGeral()">
-   
 
-    <div class="container inicio">
-        <h1>Título da página 6</h1>
-       <!-- Desenvolver dentro destas tags --> 
+
+    <div class="container aberturas">
+
+        <!-- Desenvolver dentro destas tags -->
+
+        <div id="showMovie">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 id="tituloPg">Aberturas das dez primeiras temporadas</h2>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <select name="" id="selecao" onchange="mudarVideo()">
+                        <option value="0">Selecione uma das eberturas</option>
+                        <option value="1">Abertura da 1ª temporada</option>
+                        <option value="2">Abertura da 2ª temporada</option>
+                        <option value="3">Abertura da 3ª temporada</option>
+                        <option value="4">Abertura da 4ª temporada</option>
+                        <option value="5">Abertura da 5ª temporada</option>
+                        <option value="6">Abertura da 6ª temporada</option>
+                        <option value="7">Abertura da 7ª temporada</option>
+                        <option value="8">Abertura da 8ª temporada</option>
+                        <option value="9">Abertura da 9ª temporada</option>
+                        <option value="10">Abertura da 10ª temporada</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row film">
+                <div id="frames">
+                    <img id="pkbol" src="./images/pokebola.gif" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
 
